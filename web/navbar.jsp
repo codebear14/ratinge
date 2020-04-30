@@ -7,8 +7,20 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    if(session.getAttribute("user") == null){
+    if(session.getAttribute("admin") != null){
         //System.out.println("No User Session running currently");
+%>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.jsp">Ratinge</a></li>
+                <li style="float:right"><a class="active" href="logout.jsp">Logout</a></li>
+                <li style="float:right"><a class="active" href="admin.jsp">Admin Panel</a></li>
+            </ul>
+        </div>
+<%
+    }
+
+    else if(session.getAttribute("user") == null){
 %>
         <div class="navbar">
             <ul>
@@ -21,11 +33,10 @@
     }
 
     else{
-        //System.out.println("User Session running currently");
 %>
         <div class="navbar">
             <ul>
-                <li><a href="index.jsp">Library Catalog</a></li>
+                <li><a href="index.jsp">Ratinge</a></li>
                 <li style="float:right"><a class="active" href="logout.jsp">Logout</a></li>
                 <li style="float:right"><a class="active" href="wishlist.jsp">Wishlist</a></li>
             </ul>

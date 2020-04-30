@@ -64,8 +64,8 @@
                 <h3>
                     ${movie.getTitle()}
                     <span>
-                    <a href="wishlist.jsp?movieId=${movie.getId()}"> <img src="assets/wishlist.png" height="18px" width="18px"/> </a>
-                </span>
+                        <a href="wishlist.jsp?movieId=${movie.getId()}"> <img src="assets/wishlist.png" height="18px" width="18px"/> </a>
+                    </span>
                 </h3>
                 <p>
                     <span style="color: goldenrod; font-size: 15px;">&bigstar;</span> <fmt:formatNumber type="number" maxFractionDigits="2" minFractionDigits="1" value="${movie.getRating()}"/> <b>|</b> ${movie.getRunningTime()} <b>|</b> ${movie.getGenres()}

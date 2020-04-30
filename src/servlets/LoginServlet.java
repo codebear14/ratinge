@@ -34,9 +34,16 @@ public class LoginServlet extends HttpServlet {
 
         if(user != null){
             //System.out.println("Hello " + user.getName() + " (" + user.getUserName() + ")");
-            HttpSession session = request.getSession();
-            session.setAttribute("user", user);
-            redirect = "index.jsp";
+            if(userName.equals("admin")){
+                HttpSession session = request.getSession();
+                session.setAttribute("admin", user);
+                redirect = "admin.jsp";
+            }
+            else{
+                HttpSession session = request.getSession();
+                session.setAttribute("user", user);
+                redirect = "index.jsp";
+            }
         }
         else{
             redirect = "login.jsp";

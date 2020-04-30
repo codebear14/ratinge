@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Movies xmlns="https://imdb/rating">
+<Movie Movieid="1">
+<MovieName>The Shawshank Redemption</MovieName>
+<MovieRating>9.300000190734863</MovieRating>
+</Movie>
+<Movie Movieid="2">
+<MovieName>The Godfather</MovieName>
+<MovieRating>9.199999809265137</MovieRating>
+</Movie>
+<Movie Movieid="3">
+<MovieName>The Godfather: Part II</MovieName>
+<MovieRating>9.0</MovieRating>
+</Movie>
+<Movie Movieid="4">
+<MovieName>The Dark Knight</MovieName>
+<MovieRating>9.0</MovieRating>
+</Movie>
+<Movie Movieid="5">
+<MovieName>12 Angry Men</MovieName>
+<MovieRating>8.899999618530273</MovieRating>
+</Movie>
+<Movie Movieid="6">
+<MovieName>Schindler's List</MovieName>
+<MovieRating>8.899999618530273</MovieRating>
+</Movie>
+<Movie Movieid="7">
+<MovieName>The Lord of the Rings: The Return of the King</MovieName>
+<MovieRating>8.899999618530273</MovieRating>
+</Movie>
+<Movie Movieid="8">
+<MovieName>Pulp Fiction</MovieName>
+<MovieRating>8.899999618530273</MovieRating>
+</Movie>
+<Movie Movieid="9">
+<MovieName>The Good, the Bad and the Ugly</MovieName>
+<MovieRating>8.800000190734863</MovieRating>
+</Movie>
+<Movie Movieid="10">
+<MovieName>The Lord of the Rings: The Fellowship of the Ring</MovieName>
+<MovieRating>8.800000190734863</MovieRating>
+</Movie>
+<Movie Movieid="11">
+<MovieName>Fight Club</MovieName>
+<MovieRating>8.800000190734863</MovieRating>
+</Movie>
+<Movie Movieid="12">
+<MovieName>Forrest Gump</MovieName>
+<MovieRating>8.800000190734863</MovieRating>
+</Movie>
+<Movie Movieid="13">
+<MovieName>Star Wars: Episode V - The Empire Strikes Back</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="14">
+<MovieName>The Lord of the Rings: The Two Towers</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="15">
+<MovieName>The Matrix</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="16">
+<MovieName>Goodfellas</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="17">
+<MovieName>One Flew Over the Cuckoo's Nest</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="48">
+<MovieName>Harakiri</MovieName>
+<MovieRating>8.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="19">
+<MovieName>Se7en</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="20">
+<MovieName>The Silence of the Lambs</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="21">
+<MovieName>It's a Wonderful Life</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="22">
+<MovieName>Star Wars: Episode IV - A New Hope</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="23">
+<MovieName>Parasite</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="24">
+<MovieName>Saving Private Ryan</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="25">
+<MovieName>Spirited Away</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="26">
+<MovieName>The Green Mile</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="18">
+<MovieName>Seven Samurai</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
+</Movie>
+<Movie Movieid="55">
+<MovieName>Gladiator</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="47">
+<MovieName>The Usual Suspects</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="54">
+<MovieName>Psycho</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="53">
+<MovieName>Modern Times</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="52">
+<MovieName>Back to the Future</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="51">
+<MovieName>The Pianist</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="50">
+<MovieName>American History X</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="49">
+<MovieName>The Lion King</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="56">
+<MovieName>City Lights(1931)</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="46">
+<MovieName>Leon: The Professional</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="57">
+<MovieName>The Intouchables</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="58">
+<MovieName>The Departed</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="59">
+<MovieName>Whiplash</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="60">
+<MovieName>The Prestige</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="61">
+<MovieName>Once Upon a Time in the West</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="62">
+<MovieName>Grave of the Fireflies</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="63">
+<MovieName>Casablanca</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="64">
+<MovieName>Joker</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="65">
+<MovieName>Cinema Paradiso</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="66">
+<MovieName>Rear Window</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="67">
+<MovieName>Alien</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="68">
+<MovieName>Apocalypse Now</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="69">
+<MovieName>Memento</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="70">
+<MovieName>Raiders of the Lost Ark</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="71">
+<MovieName>The Great Dictator</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="72">
+<MovieName>The Lives of Others</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="73">
+<MovieName>Django Unchained</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="74">
+<MovieName>Paths of Glory</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="75">
+<MovieName>The Shining</MovieName>
+<MovieRating>8.399999618530273</MovieRating>
+</Movie>
+<Movie Movieid="27">
+<MovieName>Dream Horse</MovieName>
+<MovieRating>6.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="28">
+<MovieName>The Wretched</MovieName>
+<MovieRating>6.300000190734863</MovieRating>
+</Movie>
+<Movie Movieid="30">
+<MovieName>The King of Staten Island</MovieName>
+<MovieRating>5.699999809265137</MovieRating>
+</Movie>
+<Movie Movieid="31">
+<MovieName>Kajillionaire</MovieName>
+<MovieRating>5.599999904632568</MovieRating>
+</Movie>
+<Movie Movieid="39">
+<MovieName>The One and Only Ivan</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="40">
+<MovieName>The Secret Garden</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="41">
+<MovieName>Bill &amp; Ted Face the Music</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="42">
+<MovieName>Let Him Go</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="43">
+<MovieName>The Hitman's Wife's Bodyguard</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="44">
+<MovieName>Spell</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="45">
+<MovieName>Monster Hunter</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="37">
+<MovieName>The Empty Man</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="38">
+<MovieName>Wonder Woman 1984</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="29">
+<MovieName>The High Note</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="36">
+<MovieName>The SpongeBob Movie: Sponge on the Run</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="35">
+<MovieName>Barb and Star Go to Vista Del Mar</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="34">
+<MovieName>Most Wanted</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="33">
+<MovieName>Come Play</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="32">
+<MovieName>Mulan</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+</Movies>

@@ -26,6 +26,12 @@ public class Movie {
         this.grossIncome = grossIncome;
     }
 
+    public Movie(int id, String title, double rating) {
+        this.id = id;
+        this.title = title;
+        this.rating = rating;
+    }
+
     public int getId() {
         return id;
     }

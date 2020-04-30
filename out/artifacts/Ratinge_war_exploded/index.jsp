@@ -14,6 +14,30 @@
     <link rel="stylesheet" type="text/css" href="footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
+
+<style>
+    .alert {
+        padding: 20px;
+        background-color: #f1a73d;
+        color: white;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .closebtn:hover {
+        color: black;
+    }
+</style>
+
 <body>
 
     <jsp:include page="navbar.jsp"/>

@@ -200,4 +200,55 @@ public class MySQLDb {
         return movies;
 
     }
+
+    public List<Movie> getXmlMovieRatings() {
+        List<Movie> movieRatingList = new ArrayList<>();
+        try {
+            String qFetchXmlRatings = "SELECT * FROM ratinge.movies ORDER BY movie_rating DESC";
+            PreparedStatement preparedStatement = connection.prepareStatement(qFetchXmlRatings);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                int d_id = resultSet.getInt("movie_id");
+                String d_title = resultSet.getString("movie_title");
+                double d_rating  = resultSet.getFloat("movie_rating");
+                Movie movie = new Movie(d_id,d_title,d_rating);
+                movieRatingList.add(movie);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return movieRatingList;
+    }
+
+    public Movie getMovie(int movieId) {
+        Movie movie = null;
+        try {
+            String qFetchMovieDetails = "SELECT * FROM ratinge.movies Where movie_id=?";
+            PreparedStatement preparedStatement = connection.prepareStatement(qFetchMovieDetails);
+            preparedStatement.setInt(1, movieId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()){
+                int d_id = resultSet.getInt("movie_id");
+                String d_title = resultSet.getString("movie_title");
+                double d_rating  = resultSet.getFloat("movie_rating");
+                String d_genres  = resultSet.getString("genres");
+                String d_runningTime = resultSet.getString("running_time");
+                String d_directors  = resultSet.getString("directors");
+                String d_writers  = resultSet.getString("writers");
+                String d_cast  = resultSet.getString("cast");
+                String d_plot  = resultSet.getString("plot");
+                int d_grossIncome  = resultSet.getInt("gross_income");
+
+                movie = new Movie(d_id,d_title,d_rating,d_genres,d_runningTime,d_directors,d_writers,d_cast,d_plot,d_grossIncome);
+            }
+            preparedStatement.close();
+            resultSet.close();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return movie;
+    }
 }

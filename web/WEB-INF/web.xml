@@ -34,4 +34,24 @@
         <url-pattern>/SearchMovieServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GetXMLRatingsServlet</servlet-name>
+        <servlet-class>servlets.GetXMLRatingsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetXMLRatingsServlet</servlet-name>
+        <url-pattern>/GetXMLRatingsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeRatingServlet</servlet-name>
+        <servlet-class>servlets.ChangeRatingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangeRatingServlet</servlet-name>
+        <url-pattern>/ChangeRatingServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
