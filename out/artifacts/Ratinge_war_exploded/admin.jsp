@@ -24,6 +24,7 @@
 
     .adminScreen{
         padding: 0px 20px 0px 20px;
+        margin-bottom: 80px;
     }
 
     .alert {
@@ -48,7 +49,7 @@
     }
 
     .button {
-        background-color: #4CAF50; /* Green */
+        background-color: #e5b112;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -89,8 +90,13 @@
             <strong>Please perform all actions with caution!</strong>.
         </div>
 
+        <br/>
+
         <form action="GetXMLRatingsServlet" method="post">
             <input class="button" type="submit" value="Change Movie Rating"/>
+            <c:if test="${not empty message}">
+                <strong>${message}</strong>
+            </c:if>
         </form>
 
         <table>
@@ -141,6 +147,8 @@
         </table>
 
     </div>
+
+    <jsp:include page="footer.jsp"/>
 
 </body>
 </html>

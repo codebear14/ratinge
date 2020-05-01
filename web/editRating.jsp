@@ -75,14 +75,15 @@
                 </p>
             </div>
 
-            <form action="#" method="post">
+            <form action="ChangeRatingServlet" method="post">
                 <label><b>New Rating : </b></label>
-                <input type="hidden" name="movieId" value="<%=movie.getId()%>"/>
+                <input type="hidden" name="movieId" value="<%=movieId%>"/>
+                <input type="hidden" name="movieTitle" value="<%=movie.getTitle()%>"/>
                 <input type="text" type="number" required name="newRating" pattern="^\d*(\.\d{0,2})?$" max="10" min="0" autocomplete="off" style="padding: 2px" size="2"/>
                 <span>
                     <img src="assets/enter.png" height="18px" width="18px"/>
                 </span>
-
+                <span style="color:red;">${error}</span>
             </form>
 
     <%      }

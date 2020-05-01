@@ -10,7 +10,7 @@
 </Movie>
 <Movie Movieid="3">
 <MovieName>The Godfather: Part II</MovieName>
-<MovieRating>9.0</MovieRating>
+<MovieRating>9.100000381469727</MovieRating>
 </Movie>
 <Movie Movieid="4">
 <MovieName>The Dark Knight</MovieName>
@@ -48,6 +48,10 @@
 <MovieName>Forrest Gump</MovieName>
 <MovieRating>8.800000190734863</MovieRating>
 </Movie>
+<Movie Movieid="16">
+<MovieName>Goodfellas</MovieName>
+<MovieRating>8.800000190734863</MovieRating>
+</Movie>
 <Movie Movieid="13">
 <MovieName>Star Wars: Episode V - The Empire Strikes Back</MovieName>
 <MovieRating>8.699999809265137</MovieRating>
@@ -60,17 +64,13 @@
 <MovieName>The Matrix</MovieName>
 <MovieRating>8.699999809265137</MovieRating>
 </Movie>
-<Movie Movieid="16">
-<MovieName>Goodfellas</MovieName>
-<MovieRating>8.699999809265137</MovieRating>
-</Movie>
 <Movie Movieid="17">
 <MovieName>One Flew Over the Cuckoo's Nest</MovieName>
 <MovieRating>8.699999809265137</MovieRating>
 </Movie>
-<Movie Movieid="48">
-<MovieName>Harakiri</MovieName>
-<MovieRating>8.699999809265137</MovieRating>
+<Movie Movieid="18">
+<MovieName>Seven Samurai</MovieName>
+<MovieRating>8.600000381469727</MovieRating>
 </Movie>
 <Movie Movieid="19">
 <MovieName>Se7en</MovieName>
@@ -104,16 +104,20 @@
 <MovieName>The Green Mile</MovieName>
 <MovieRating>8.600000381469727</MovieRating>
 </Movie>
-<Movie Movieid="18">
-<MovieName>Seven Samurai</MovieName>
-<MovieRating>8.600000381469727</MovieRating>
+<Movie Movieid="57">
+<MovieName>The Intouchables</MovieName>
+<MovieRating>8.5</MovieRating>
 </Movie>
-<Movie Movieid="55">
-<MovieName>Gladiator</MovieName>
+<Movie Movieid="56">
+<MovieName>City Lights(1931)</MovieName>
 <MovieRating>8.5</MovieRating>
 </Movie>
 <Movie Movieid="47">
 <MovieName>The Usual Suspects</MovieName>
+<MovieRating>8.5</MovieRating>
+</Movie>
+<Movie Movieid="55">
+<MovieName>Gladiator</MovieName>
 <MovieRating>8.5</MovieRating>
 </Movie>
 <Movie Movieid="54">
@@ -140,16 +144,8 @@
 <MovieName>The Lion King</MovieName>
 <MovieRating>8.5</MovieRating>
 </Movie>
-<Movie Movieid="56">
-<MovieName>City Lights(1931)</MovieName>
-<MovieRating>8.5</MovieRating>
-</Movie>
 <Movie Movieid="46">
 <MovieName>Leon: The Professional</MovieName>
-<MovieRating>8.5</MovieRating>
-</Movie>
-<Movie Movieid="57">
-<MovieName>The Intouchables</MovieName>
 <MovieRating>8.5</MovieRating>
 </Movie>
 <Movie Movieid="58">
@@ -224,6 +220,10 @@
 <MovieName>The Shining</MovieName>
 <MovieRating>8.399999618530273</MovieRating>
 </Movie>
+<Movie Movieid="48">
+<MovieName>Harakiri</MovieName>
+<MovieRating>8.0</MovieRating>
+</Movie>
 <Movie Movieid="27">
 <MovieName>Dream Horse</MovieName>
 <MovieRating>6.699999809265137</MovieRating>
@@ -272,12 +272,12 @@
 <MovieName>The Empty Man</MovieName>
 <MovieRating>0.0</MovieRating>
 </Movie>
-<Movie Movieid="38">
-<MovieName>Wonder Woman 1984</MovieName>
-<MovieRating>0.0</MovieRating>
-</Movie>
 <Movie Movieid="29">
 <MovieName>The High Note</MovieName>
+<MovieRating>0.0</MovieRating>
+</Movie>
+<Movie Movieid="38">
+<MovieName>Wonder Woman 1984</MovieName>
 <MovieRating>0.0</MovieRating>
 </Movie>
 <Movie Movieid="36">

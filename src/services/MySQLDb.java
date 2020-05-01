@@ -251,4 +251,23 @@ public class MySQLDb {
 
         return movie;
     }
+
+    public boolean updateRaing(double movieRating,int movieId) {
+
+        try {
+            String qUpdateMovieRating = "UPDATE movies SET movie_rating = ? WHERE movie_id = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(qUpdateMovieRating);
+            preparedStatement.setDouble(1, movieRating);
+            preparedStatement.setDouble(2, movieId);
+
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+
+            return true;
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
 }
