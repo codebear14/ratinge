@@ -9,6 +9,7 @@
 <%@ page import="models.Movie" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="services.MySQLDb" %>
+<%@ page import="models.UserModel" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -73,7 +74,7 @@
                     <br/><b>Directors:</b> ${movie.getDirectors()}
                     <br/><b>Writers:</b> ${movie.getWriters()}
                     <br/><b>Cast:</b> ${movie.getCast()}
-                    <br/><b>Gross Income:</b> <fmt:formatNumber maxFractionDigits="0" value = "${movie.getGrossIncome()}" type = "currency"/>
+                    <br/><b>Gross Income:</b> <fmt:formatNumber maxFractionDigits="0" value = "${movie.getGrossIncome()}" type = "currency"/> <b>|</b> <a href="comments.jsp?movieId=${movie.getId()}">Comments</a>
                 </p>
             </div>
         </c:forEach>

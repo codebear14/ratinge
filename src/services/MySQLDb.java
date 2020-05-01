@@ -1,5 +1,6 @@
 package services;
 
+import models.Comment;
 import models.Movie;
 import models.UserModel;
 
@@ -105,6 +106,9 @@ public class MySQLDb {
                 Movie movie = new Movie(d_id,d_title,d_rating,d_genres,d_runningTime,d_directors,d_writers,d_cast,d_plot,d_grossIncome);
                 movies.add(movie);
             }
+            preparedStatement.close();
+            resultSet.close();
+
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -132,6 +136,10 @@ public class MySQLDb {
                 Movie movie = new Movie(d_id,d_title,d_rating,d_genres,d_runningTime,d_directors,d_writers,d_cast,d_plot,d_grossIncome);
                 movies.add(movie);
             }
+
+            preparedStatement.close();
+            resultSet.close();
+
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -157,6 +165,8 @@ public class MySQLDb {
                 preparedStatement.setInt(2, movieId);
                 preparedStatement.executeUpdate();
             }
+            preparedStatement.close();
+            resultSet.close();
 
             return 1;
 
@@ -214,6 +224,9 @@ public class MySQLDb {
                 Movie movie = new Movie(d_id,d_title,d_rating);
                 movieRatingList.add(movie);
             }
+            preparedStatement.close();
+            resultSet.close();
+
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -269,5 +282,50 @@ public class MySQLDb {
             throwables.printStackTrace();
             return false;
         }
+    }
+
+    public boolean addComment(int userId, int movieId, String comment) {
+        try {
+            String qAddComment = "INSERT INTO comments VALUES (?, ?, ?, NOW())";
+            PreparedStatement preparedStatement = connection.prepareStatement(qAddComment);
+            preparedStatement.setInt(1, userId);
+            preparedStatement.setInt(2, movieId);
+            preparedStatement.setString(3, comment);
+            preparedStatement.executeUpdate();
+            preparedStatement.close();
+
+            return true;
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
+
+    public List<Comment> getComments(int movieId) {
+        List<Comment> comments = new ArrayList<>();
+        try {
+            String qMovieComments = "SELECT u.name, u.user_name, c.comment, c.datePosted  FROM comments c, user u where u.user_id = c.user_id AND c.movie_id=? ORDER BY c.datePosted DESC";
+            PreparedStatement preparedStatement = connection.prepareStatement(qMovieComments);
+            preparedStatement.setInt(1,movieId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                String d_uName = resultSet.getString("name");
+                String d_userName = resultSet.getString("user_name");
+                String d_comment = resultSet.getString("comment");
+                String d_dateTime = String.valueOf(resultSet.getDate("datePosted"));
+
+                Comment comment = new Comment(d_uName, d_userName, d_comment, d_dateTime);
+                comments.add(comment);
+            }
+
+            preparedStatement.close();
+            resultSet.close();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return comments;
     }
 }

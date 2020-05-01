@@ -128,7 +128,7 @@
                         <br/><b>Directors:</b> <%=movie.getDirectors()%>
                         <br/><b>Writers:</b> <%=movie.getDirectors()%>
                         <br/><b>Cast:</b> <%=movie.getCast()%>
-                        <br/><b>Gross Income:</b> $<%=formatter.format(movie.getGrossIncome())%>
+                        <br/><b>Gross Income:</b> $<%=formatter.format(movie.getGrossIncome())%> <b>|</b> <a href="comments.jsp?movieId=<%=movie.getId()%>">Comments</a>
                     </p>
                 </div>
         <%

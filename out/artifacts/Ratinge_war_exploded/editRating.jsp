@@ -1,12 +1,13 @@
-<%@ page import="services.MySQLDb" %>
-<%@ page import="models.Movie" %>
-<%@ page import="java.text.DecimalFormat" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: satya
   Date: 4/30/2020
   Time: 9:42 AM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="services.MySQLDb" %>
+<%@ page import="models.Movie" %>
+<%@ page import="java.text.DecimalFormat" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -18,10 +19,6 @@
 </head>
 
 <style>
-
-    .adminScreen{
-        padding: 0px 20px 0px 20px;
-    }
 
     .movieList{
         padding-left: 10px;
@@ -50,7 +47,7 @@
     <jsp:include page="navbar.jsp"/>
     <br/>
     <div class="movieList">
-        <h1>Edit Ratings</h1>
+        <h2 style="color: #575756">Edit Ratings</h2>
     <%
         if(request.getParameter("movieId") != null){
             int movieId = Integer.parseInt(request.getParameter("movieId"));

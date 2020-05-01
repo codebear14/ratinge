@@ -77,7 +77,7 @@
                 <br/><b>Directors:</b> ${movie.getDirectors()}
                 <br/><b>Writers:</b> ${movie.getWriters()}
                 <br/><b>Cast:</b> ${movie.getCast()}
-                <br/><b>Gross Income:</b> <fmt:formatNumber maxFractionDigits="0" value = "${movie.getGrossIncome()}" type = "currency"/>
+                <br/><b>Gross Income:</b> <fmt:formatNumber maxFractionDigits="0" value = "${movie.getGrossIncome()}" type = "currency"/> <b>|</b> <a href="comments.jsp?movieId=${movie.getId()}">Comments</a>
             </p>
         </div>
     </c:forEach>

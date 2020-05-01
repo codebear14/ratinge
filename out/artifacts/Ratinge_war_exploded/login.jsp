@@ -91,7 +91,7 @@
         <br/><label><b>Password</b></label><br/>
         <input type="password" placeholder="Enter Password" name="password" autocomplete="off"s required>
 
-        <button type="submit">Sign Up</button>
+        <button type="submit">Login</button>
     </form>
 
     <span style="color: red;">${error}</span>
