@@ -12,9 +12,9 @@ public class MySQLDb {
 
     private Connection connection = null;
     private static MySQLDb instance = null;
-    String url = "jdbc:mysql://localhost:3306/ratinge";
-    String username = "root";
-    String password = "123456";
+    String url = "Loction-To-JDBC";
+    String username = "USERNAME";
+    String password = "PASSWORD";
 
     public MySQLDb() {
         try {
